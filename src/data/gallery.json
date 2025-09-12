@@ -1,0 +1,107 @@
+{
+    "gallery": {
+      "hero": {
+        "title": "Explore Our Gallery",
+        "subtitle": "Visual Journey",
+        "description": "Dive into the breathtaking beauty of marine life through our curated collection of stunning imagery",
+        "stats": {
+          "photos": "500+",
+          "species": "50+",
+          "exhibits": "15"
+        }
+      },
+      "featuredImages": [
+        {
+          "src": "/coral-reef.jpg",
+          "title": "Coral Reef Exhibit",
+          "description": "Vibrant colors and diverse species in our tropical reef display"
+        },
+        {
+          "src": "/shark-tunnel.jpg",
+          "title": "Shark Tunnel",
+          "description": "Walk among the ocean's most magnificent predators"
+        },
+        {
+          "src": "/touch-pool.jpg",
+          "title": "Touch Pool Experience",
+          "description": "Interactive encounters with gentle marine creatures"
+        },
+        {
+          "src": "/jellyfish.jpg",
+          "title": "Jellyfish Gallery",
+          "description": "Mesmerizing dance of ethereal jellyfish"
+        }
+      ],
+      "visitorPhotos": [
+        {
+          "src": "/exhibit1.jpg",
+          "category": "exhibits",
+          "title": "Visitor Photo 1"
+        },
+        {
+          "src": "/fam.jpg",
+          "category": "family",
+          "title": "Visitor Photo 2"
+        },
+        {
+          "src": "/ed.jpg",
+          "category": "education",
+          "title": "Visitor Photo 3"
+        },
+        {
+          "src": "/event.jpg",
+          "category": "events",
+          "title": "Visitor Photo 4"
+        },
+        {
+          "src": "/exhibit2.jpg",
+          "category": "exhibits",
+          "title": "Visitor Photo 5"
+        }
+      ],
+      "behindScenesImages": [
+        {
+          "src": "/dolphin.webp",
+          "title": "Dolphin Care Team",
+          "description": "Our dedicated marine biologists during feeding time"
+        },
+        {
+          "src": "/consv.webp",
+          "title": "Conservation Lab",
+          "description": "Research facility for marine conservation efforts"
+        },
+        {
+          "src": "/tank.jpg",
+          "title": "Tank Maintenance",
+          "description": "Ensuring optimal conditions for our marine life"
+        }
+      ],
+      "categories": [
+        {
+          "id": "all",
+          "label": "All Photos",
+          "icon": "fas fa-images"
+        },
+        {
+          "id": "exhibits",
+          "label": "Exhibits",
+          "icon": "fas fa-fish"
+        },
+        {
+          "id": "family",
+          "label": "Family Fun",
+          "icon": "fas fa-heart"
+        },
+        {
+          "id": "education",
+          "label": "Education",
+          "icon": "fas fa-graduation-cap"
+        },
+        {
+          "id": "events",
+          "label": "Events",
+          "icon": "fas fa-calendar"
+        }
+      ]
+    }
+  }

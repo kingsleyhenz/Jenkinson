@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Shark Week Spectacular",
+      "date": "2024-10-15",
+      "time": "10:00 AM - 4:00 PM",
+      "description": "Dive deep into the world of sharks with expert talks, feeding demonstrations, and interactive exhibits",
+      "category": "educational",
+      "audience": "All Ages",
+      "price": "$15",
+      "image": "/shark2.jpg",
+      "featured": true,
+      "capacity": 50,
+      "registered": 32
+    },
+    {
+      "id": 2,
+      "title": "Ocean Storytime",
+      "date": "2024-10-20",
+      "time": "11:00 AM - 12:00 PM",
+      "description": "Weekly sessions with marine-themed books, crafts, and puppet shows for young ocean explorers",
+      "category": "children",
+      "audience": "Ages 3-8",
+      "price": "Free",
+      "image": "/ocean.jpg",
+      "featured": false,
+      "capacity": 25,
+      "registered": 18
+    },
+    {
+      "id": 3,
+      "title": "Marine Biology Workshop",
+      "date": "2024-10-25",
+      "time": "2:00 PM - 5:00 PM",
+      "description": "Hands-on workshop for students to learn about marine ecosystems and conservation techniques",
+      "category": "educational",
+      "audience": "Ages 12+",
+      "price": "$25",
+      "image": "/school.jpg",
+      "featured": false,
+      "capacity": 30,
+      "registered": 15
+    }
+  ]
+}

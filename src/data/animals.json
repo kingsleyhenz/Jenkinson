@@ -1,0 +1,143 @@
+{
+  "categories": [
+    {
+      "name": "Fish",
+      "species": [
+        {
+          "name": "Clownfish",
+          "info": "Bright orange fish known for their symbiotic relationship with sea anemones. These colorful fish are immune to anemone stings and help protect their host.",
+          "habitat": "Coral reefs in warm tropical waters",
+          "diet": "Algae, zooplankton, and small crustaceans",
+          "status": "Stable",
+          "image": "/clownfish.jpg"
+        },
+        {
+          "name": "Angelfish",
+          "info": "Elegant fish with vibrant colors and graceful swimming patterns. Popular in both wild reefs and aquarium settings.",
+          "habitat": "Coral reefs and rocky outcrops",
+          "diet": "Sponges, algae, and small invertebrates",
+          "status": "Stable",
+          "image": "/angelFish.jpg"
+        },
+        {
+          "name": "Parrotfish",
+          "info": "Colorful reef fish known for their beak-like mouths and role in creating sand beaches through coral consumption.",
+          "habitat": "Tropical coral reefs",
+          "diet": "Algae and coral polyps",
+          "status": "Vulnerable",
+          "image": "/parFish.jpeg"
+        }
+      ]
+    },
+    {
+      "name": "Mammals",
+      "species": [
+        {
+          "name": "Whale",
+          "info": "The largest animals on Earth, these gentle giants migrate thousands of miles and communicate through complex songs.",
+          "habitat": "Open oceans and deep waters",
+          "diet": "Krill, small fish, and plankton",
+          "status": "Vulnerable",
+          "image": "/whale.webp"
+        },
+        {
+          "name": "Manatee",
+          "info": "Gentle 'sea cows' that graze on seagrass. These peaceful mammals are known for their docile nature.",
+          "habitat": "Shallow coastal waters and rivers",
+          "diet": "Seagrass, algae, and aquatic plants",
+          "status": "Vulnerable",
+          "image": "/manatee.webp"
+        }
+      ]
+    },
+    {
+      "name": "Sharks",
+      "species": [
+        {
+          "name": "Great White Shark",
+          "info": "Apex predator of the oceans with powerful jaws and keen senses. Essential for maintaining marine ecosystem balance.",
+          "habitat": "Coastal and offshore waters",
+          "diet": "Seals, fish, and sea lions",
+          "status": "Vulnerable",
+          "image": "/great.jpeg"
+        },
+        {
+          "name": "Hammerhead Shark",
+          "info": "Distinctive shark species with a unique hammer-shaped head that provides enhanced sensory capabilities.",
+          "habitat": "Warm coastal waters and continental shelves",
+          "diet": "Stingrays, fish, and squid",
+          "status": "Endangered",
+          "image": "/ham.avif"
+        }
+      ]
+    },
+    {
+      "name": "Jellyfish",
+      "species": [
+        {
+          "name": "Moon Jellyfish",
+          "info": "Translucent, bell-shaped jellyfish that drift gracefully through the water. One of the most common jellyfish species.",
+          "habitat": "Coastal waters and harbors worldwide",
+          "diet": "Small plankton and fish larvae",
+          "status": "Stable",
+          "image": "/jellyfish.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Rays",
+      "species": [
+        {
+          "name": "Stingray",
+          "info": "Flattened cartilaginous fish with a venomous barb on their tail. Despite their reputation, they are generally peaceful.",
+          "habitat": "Sandy and muddy ocean floors",
+          "diet": "Mollusks, worms, and small crustaceans",
+          "status": "Stable",
+          "image": "/sting.jpeg"
+        },
+        {
+          "name": "Manta Ray",
+          "info": "Majestic giants of the sea with wingspans that can reach over 20 feet. These gentle filter feeders are highly intelligent.",
+          "habitat": "Open ocean and coral reef areas",
+          "diet": "Plankton, small fish, and krill",
+          "status": "Vulnerable",
+          "image": "/manta.webp"
+        }
+      ]
+    },
+    {
+      "name": "Reptiles",
+      "species": [
+        {
+          "name": "Sea Turtle",
+          "info": "Ancient mariners that have navigated the oceans for millions of years. They return to the same beaches to nest.",
+          "habitat": "Warm coastal waters and nesting beaches",
+          "diet": "Seagrass, algae, jellyfish, and crabs",
+          "status": "Endangered",
+          "image": "/turt.jpg"
+        },
+        {
+          "name": "Marine Iguana",
+          "info": "The world's only marine lizard, found exclusively in the Galápagos Islands. They can dive up to 30 feet to feed.",
+          "habitat": "Rocky shores and shallow waters of Galápagos",
+          "diet": "Marine algae and seaweed",
+          "status": "Vulnerable",
+          "image": "/iguana.webp"
+        }
+      ]
+    },
+    {
+      "name": "Invertebrates",
+      "species": [
+           {
+          "name": "Giant Pacific Octopus",
+          "info": "The largest octopus species in the world, known for their intelligence and complex behaviors. Can grow to enormous sizes.",
+          "habitat": "Rocky dens in the North Pacific Ocean",
+          "diet": "Sharks, fish, crabs, and other cephalopods",
+          "status": "Vulnerable",
+          "image": "/oct.jpg"
+        }
+      ]
+    }
+  ]
+}
