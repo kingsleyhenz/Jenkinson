@@ -2,15 +2,13 @@ import { useEffect, useState } from 'react';
 import logo from '../assets/logo.webp';
 import seaImage from '../assets/sea-creature.jpg';
 
-function Header() {
+const Header =()=> {
   const [visitorCount, setVisitorCount] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    // Visitor count logic (using state instead of localStorage for Claude.ai compatibility)
     setVisitorCount(prev => prev + 1);
 
-    // Scroll effect for header
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
     };
