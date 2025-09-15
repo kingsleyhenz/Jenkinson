@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import AboutUs from './pages/About';
 import ContactUs from './pages/Contact';
 import Gallery from './pages/Gallery';
+import Animals from './pages/Animals';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/animals" element={<Animals />} />
         </Routes>
       </main>
       <Footer />
