@@ -1,68 +1,56 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "TASA Orbiter", sans-serif;
 }
-
+body {
+  background-color: #ffffff;
+  color: #003366;
+}
 a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
+  color: #007bff;
 }
 a:hover {
-  color: #535bf2;
+  color: #0056b3;
 }
-
-body {
-  margin: 0;
+header {
+  background: linear-gradient(to right, #007bff, #00bfff);
+  color: #ffffff;
+}
+footer {
+  background: #003366;
+  color: #ffffff;
+}
+.section {
+  padding: 40px 0;
+  border-bottom: 1px solid #e0f7ff;
+}
+.hero {
+  background: url('../assets/hero-sea.jpg') no-repeat center/cover; 
+  height: 100px;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
+.card {
+  background: #f8fbff;
+  border: 1px solid #d0eaff;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+  transition: transform 0.3s;
 }
-button:hover {
-  border-color: #646cff;
+.card:hover {
+  transform: translateY(-5px);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.fade-in {
+  animation: fadeIn 1s ease-in;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

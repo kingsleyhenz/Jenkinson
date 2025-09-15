@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import logo from '../assets/logo.webp';
 import seaImage from '../assets/sea-creature.jpg';
 
-const Header =()=> {
+function Header() {
   const [visitorCount, setVisitorCount] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
 
