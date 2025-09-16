@@ -32,16 +32,6 @@ function SiteMap() {
       ],
       icon: 'fas fa-tools',
       color: 'info'
-    },
-    {
-      title: 'Additional Resources',
-      items: [
-        { path: '/blog', label: 'Blog', description: 'Read our latest articles on marine conservation' },
-        { path: '/conservation', label: 'Conservation Tips', description: 'Learn how to protect our oceans' },
-        { path: '/faq', label: 'FAQ', description: 'Find answers to frequently asked questions' },
-      ],
-      icon: 'fas fa-link',
-      color: 'warning'
     }
   ];
 

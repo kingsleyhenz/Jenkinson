@@ -128,56 +128,15 @@ function AboutUs() {
               <div className="team-card bg-white rounded-4 shadow-sm overflow-hidden h-100">
                 <div className="card-body p-5 text-center">
                   <div className="team-image-wrapper position-relative mx-auto mb-4">
-                    <img 
-                      src="../assets/team1.jpg" 
-                      alt="Dr. Jane Ocean" 
-                      className="team-image rounded-circle shadow-sm" 
-                      style={{ width: '120px', height: '120px', objectFit: 'cover' }} 
-                    />
-                    <div className="position-absolute bottom-0 end-0 bg-primary rounded-circle p-2">y</div>
+                    
+                    {/* <div className="position-absolute bottom-0 end-0 bg-primary rounded-circle p-2"></div> */}
                   </div>
-                  <h4 className="fw-bold text-dark mb-2">Dr. Jane Ocean</h4>
+                  <h4 className="fw-bold text-dark mb-2">Kingsley Henshaw</h4>
                   <span className="badge bg-primary bg-opacity-10 text-primary px-3 py-2 rounded-pill mb-3">
-                    Head Marine Biologist
+                    Fullstack developer
                   </span>
                   <p className="text-muted mb-4">
-                    Over 20 years of experience in marine conservation, specializing in coral reef restoration and endangered species protection.
-                  </p>
-                  <div className="social-links d-flex justify-content-center gap-3">
-                    <a href="#" className="text-muted">
-                      <i className="fab fa-linkedin fs-5"></i>
-                    </a>
-                    <a href="#" className="text-muted">
-                      <i className="fas fa-envelope fs-5"></i>
-                    </a>
-                    <a href="#" className="text-muted">
-                      <i className="fab fa-twitter fs-5"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="col-lg-5 col-md-6">
-              <div className="team-card bg-white rounded-4 shadow-sm overflow-hidden h-100">
-                <div className="card-body p-5 text-center">
-                  <div className="team-image-wrapper position-relative mx-auto mb-4">
-                    <img 
-                      src="../assets/team2.jpg" 
-                      alt="Mr. Alex Wave" 
-                      className="team-image rounded-circle shadow-sm" 
-                      style={{ width: '120px', height: '120px', objectFit: 'cover' }} 
-                    />
-                    <div className="position-absolute bottom-0 end-0 bg-success rounded-circle p-2">
-                      <i className="fas fa-chalkboard-teacher text-white"></i>
-                    </div>
-                  </div>
-                  <h4 className="fw-bold text-dark mb-2">Mr. Alex Wave</h4>
-                  <span className="badge bg-success bg-opacity-10 text-success px-3 py-2 rounded-pill mb-3">
-                    Education Director
-                  </span>
-                  <p className="text-muted mb-4">
-                    Specializing in interactive learning experiences and educational program development for visitors of all ages.
+                    Over 5 years of experience in Software development, specializing in building scalable web applications and services. 
                   </p>
                   <div className="social-links d-flex justify-content-center gap-3">
                     <a href="#" className="text-muted">
