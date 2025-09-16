@@ -8,6 +8,7 @@ import AboutUs from './pages/About';
 import ContactUs from './pages/Contact';
 import Gallery from './pages/Gallery';
 import Animals from './pages/Animals';
+import Events from './pages/Event';
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/animals" element={<Animals />} />
+          <Route path="/events" element={<Events />} />
+          
         </Routes>
       </main>
       <Footer />
