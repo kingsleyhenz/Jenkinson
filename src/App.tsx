@@ -10,6 +10,8 @@ import Gallery from './pages/Gallery';
 import Animals from './pages/Animals';
 import Events from './pages/Event';
 import Reviews from './pages/Reviews';
+import SiteMap from './pages/SiteMap';
+import Queries from './pages/Queries';
 
 function App() {
 
@@ -27,6 +29,8 @@ function App() {
           <Route path="/animals" element={<Animals />} />
           <Route path="/events" element={<Events />} />
           <Route path="/reviews" element={<Reviews />} />
+          <Route path="/sitemap" element={<SiteMap />} />
+          <Route path="/queries" element={<Queries />} />
         </Routes>
       </main>
       <Footer />
